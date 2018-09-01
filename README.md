@@ -1,1 +1,3 @@
-# jumpstart
+# readme
+
+The beginning stuff
