@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Modify HBX CSS and HTML",
+  "version": "0.1.0",
+  "description": "Include Fadstir Recs",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["jquery-3.1.1.min.js", "content.js"],
+    "matches": ["https://hbx.com/*"]
+  }]
+ 
+}
